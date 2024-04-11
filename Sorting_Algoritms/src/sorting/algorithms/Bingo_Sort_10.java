@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Bingo_Sort_10 
 {
-	static int bingo;
+    static int bingo;
     static int nextBingo;
     static void maxMin(int[] vec, int n)
     {
@@ -52,8 +52,8 @@ public class Bingo_Sort_10
         System.out.println("Given Unsorted Array:"+Arrays.toString(arr3)+"\n");
         arr3 = bingoSort(arr3, arr3.length);
         System.out.println("Bingo Sorted array 3:"+ Arrays.toString(arr3)+"\n");
-	    long t2=System.currentTimeMillis();
-		System.out.println("Completed in :"+(t2-t1)+" Milli Sec");
+	long t2=System.currentTimeMillis();
+	System.out.println("Completed in :"+(t2-t1)+" Milli Sec");
         
     }
 }
